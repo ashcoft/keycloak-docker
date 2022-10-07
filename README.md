@@ -37,3 +37,5 @@ Okay, so Keycloak is running but we can’t do anything with it because we need 
 While the compose setup is running, run this in your terminal:
 
 docker exec keycloak /opt/jboss/keycloak/bin/add-user-keycloak.sh -u admin -p admin && docker restart keycloak
+
+https://www.keycloak.org/docs/15.0/getting_started/
